@@ -4,7 +4,6 @@ const searchParams = new URLSearchParams({
 });
 
 export const fetchCountries = (name) => {
-    // return fetch(`${BASE_URL}${name}?fields=name,capital,population,flags,languages`)
     return fetch(`${BASE_URL}${name}?${searchParams}`)
         .then(response => {
             if (response.status === 404) {
@@ -15,5 +14,14 @@ export const fetchCountries = (name) => {
 };
 
 
-
-
+/*
+export const fetchCountries = (name) => {
+    return fetch(`${BASE_URL}${name}?fields=name,capital,population,flags,languages`)
+        .then(response => {
+            if (response.status === 404) {
+                throw new Error(response.status);
+            }
+            return response.json();
+        });
+};
+*/
