@@ -68,7 +68,7 @@ function renderedCountries(result) {
 
 function countriesListMarkup(result) {
     const listMarkup = result.map((({ name, flags }) => {
-        return `<li>
+        return /*html*/ `<li>
                         <img src="${flags.svg}" alt="${name}" width="60" height="auto">
                         <span>${name.official}</span>
                 </li>`;
@@ -80,7 +80,7 @@ function countriesListMarkup(result) {
 function countryCardMarkup(result) {
     const cardMarkup = result.map(({ flags, name, capital, population, languages }) => {
         languages = Object.values(languages).join(", ");
-        return `
+        return /*html*/ `
             <img src="${flags.svg}" alt="${name}" width="320" height="auto">
             <p> ${name.official}</p>
             <p>Capital: <span> ${capital}</span></p>
