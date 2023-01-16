@@ -1,25 +1,25 @@
 #search-box {
   display: block;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 6.25rem;
 
   font: inherit;
-  padding: 5px 15px;
-  max-width: 320px;
-  width: 320px;
-  height: 44px;
+  padding: 0.3125rem 0.9375rem;
+  max-width: 20rem;
+  width: 20rem;
+  height: 2.75rem;
   margin-bottom: 16px;
 
   border: none;
   outline: none;
-  border-radius: 40px;
+  border-radius: 3.125rem;
 
   background: transparent;
   color: #03a9f4;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
   box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
-    inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+    inset 2px 2px 6px rgba(0, 0, 0, 0.75);
 }
 
 .country-list,
@@ -29,20 +29,20 @@
   justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
-  padding: 30px;
-  gap: 15px;
+  padding: 1.875rem;
+  gap: 0.9375rem;
 
-  min-width: 150px;
-  max-width: 600px;
-  min-height: 130px;
+  min-width: 9.375rem;
+  max-width: 37.5rem;
+  min-height: 8.125rem;
 
   backdrop-filter: blur(22px);
   box-shadow: inset 0 0 0 400px rgba(255, 255, 255, 0.074);
   background-color: transparent;
   color: #e6e6e6;
 
-  border-radius: 12px;
-  border: 3px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.75rem;
+  border: 0.1875rem solid rgba(255, 255, 255, 0.12);
 
   animation: color-change-2x 2s linear infinite alternate both;
 }
@@ -63,7 +63,7 @@
 
 .country-list span {
   display: inline-block;
-  font-size: 20px;
+  font-size: 1.25rem;
   vertical-align: super;
 }
 img + p {
@@ -74,8 +74,8 @@ img + p {
 
 p {
   color: #03a9f4;
-  margin-top: 0px;
-  margin-bottom: 10px;
+  margin-top: 0rem;
+  margin-bottom: 0.625rem;
 }
 p > span {
   color: #ffffff;

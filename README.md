@@ -1,26 +1,6 @@
 **Read in other languages: [Русский](README.md), [Українська](README.ua.md),
 [English](README.en.md), [Español](README.es.md), [Polski](README.pl.md).**
 
-# Критерії приймання
-
-- Створено репозиторій `goit-js-hw-10`.
-- Домашня робота містить два посилання: на вихідні файли і робочу сторінку на
-  `GitHub Pages`.
-- В консолі відсутні помилки і попередження під час відкриття живої сторінки
-  завдання.
-- Проект зібраний за допомогою
-  [parcel-project-template](https://github.com/goitacademy/parcel-project-template).
-- Код відформатований за допомогою `Prettier`.
-
-## Стартові файли
-
-У [папці src](./src) знайдеш стартові файли. Скопіюй їх собі у проект, повністю
-замінивши папку `src` в
-[parcel-project-template](https://github.com/goitacademy/parcel-project-template).
-Для цього завантаж увесь цей репозиторій як архів або використовуй
-[сервіс DownGit](https://downgit.github.io/) для завантаження окремої папки з
-репозиторія.
-
 ## Завдання - пошук країн
 
 [![Image from Gyazo](https://i.gyazo.com/eb4ffcf24b2f8030a3a08b68578b8663.gif)](https://gyazo.com/eb4ffcf24b2f8030a3a08b68578b8663)
