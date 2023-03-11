@@ -80,3 +80,7 @@ p {
 p > span {
   color: #ffffff;
 }
+
+ul {
+  list-style: none;
+}
